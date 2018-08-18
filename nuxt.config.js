@@ -14,7 +14,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Portfolio' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Archivo|Kavivanar|Heebo:300' }
     ]
   },
   /* Customize the progress bar color */
