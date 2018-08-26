@@ -1,4 +1,87 @@
 :root {
   --font-family: 'Archivo', sans-serif;
   --headings-font-family: 'Archivo', sans-serif;
+  --grid-columns: repeat(6, 1fr);
+  --columns-width: 140rem;
+  --link-color: var(--indigo);
+  /* --font-size: 1.125rem; */
+  /* --headings-font-size-h1: 6rem; */
+}
+
+a {
+	transition: all 500ms ease;
+}
+
+nav a.small{
+  cursor: nesw-resize;
+}
+
+nav div{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: var(--nav-padding);
+  color: inherit;
+}
+
+.grid img{
+  /* box-shadow: 0 0.25rem 0.25rem var(--component-shadow); */
+  /* border: 1px solid #868e96; */
+  position: relative;
+}
+
+[class*='bord'] {
+  border-color: #868e96;
+}
+
+.scrollactive-item.is-active {
+  text-decoration: underline;
+}
+
+h1, .h1 {
+  font-family: 'Archivo Black', sans-serif;
+  position: relative;
+  z-index: 0;
+}
+
+.h1::before, .h1::after {
+	transition: all 500ms ease;
+}
+
+.h1::before {
+  content: attr(data-heading);
+  position: absolute;
+	left: 0.25rem;
+	top: 0.25rem;
+  z-index: -10;
+ 	-webkit-text-stroke: 1px;
+	-webkit-text-fill-color: transparent;
+}
+
+.h1::after {
+  content: attr(data-heading);
+  position: absolute;
+	left: 0.5rem;
+	top: 0.5rem;
+  z-index: -20;
+ 	-webkit-text-stroke: 1px;
+	-webkit-text-fill-color: transparent;
+}
+
+.h1:hover::before {
+	left: 0.5rem;
+	top: 0.5rem;
+}
+
+.h1:hover::after {
+	left: 1rem;
+	top: 1rem;
+}
+
+a {
+  padding: 0.25rem 0.125rem;
+}
+a:hover{
+  background-color: var(--smoke);
+  border-radius: 0.125rem;
 }

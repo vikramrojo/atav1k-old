@@ -13,11 +13,13 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/markdownit": "latest",
+    "fortune.css": "^0.1.2",
     "nuxt": "^1.0.0",
     "pug": "^2.0.3",
-    "fortune.css": "^0.1.2",
     "pug-loader": "^2.4.0",
-    "@nuxtjs/markdownit": "latest"
+    "vue-scrollactive": "^0.6.1",
+    "vue-tiny-lazyload-img": "0.0.3"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",

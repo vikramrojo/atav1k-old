@@ -5,6 +5,11 @@ module.exports = {
     { src: '~/assets/app.css' }
   ],
 
+  plugins: [
+    { src: '~/plugins/vue-scrollactive'},
+    { src: '~/plugins/vue-tiny-lazyload-img', ssr: false }  
+  ],
+
   /* Headers of the page */
   head: {
     title: 'atav1k',
@@ -13,9 +18,12 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Portfolio' }
     ],
+    script: [
+      { src: 'https://unpkg.com/animate-css-grid@latest' }
+    ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Archivo|Kavivanar|Heebo:300' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Archivo|Archivo+Black' }
     ]
   },
   /* Customize the progress bar color */
