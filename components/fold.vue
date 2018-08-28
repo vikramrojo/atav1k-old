@@ -5,7 +5,7 @@
         <slot></slot>
       </div>
     </transition>
-    <div class="fold-header" role="tab" :aria-expanded="active ? 'true' : 'false'" @click.prevent="toggle">
+    <div class="fold-header teal" role="tab" :aria-expanded="active ? 'true' : 'false'" @click.prevent="toggle">
       <img src="~/static/img/view.svg" class="ht1"/> 
       {{ active ? ' Less information' : ' More information' }}
     </div>

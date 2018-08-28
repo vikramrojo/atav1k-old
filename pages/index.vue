@@ -3,7 +3,7 @@
     .fixed.wid100.bordB1.z10.bgWhite
       nav.nav.cols
         scrollactive(:offset="70").navLeft.col
-          a.scrollactive-item(href="#top").bold.hide.padL0 Vikram Babu
+          a.scrollactive-item(href="#top").bold.hide Vikram Babu
           a.scrollactive-item(href="#product") Product
           a.scrollactive-item(href="#design") Design
           a.scrollactive-item(href="#words") Words
