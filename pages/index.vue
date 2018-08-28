@@ -20,10 +20,14 @@
           | , coaches teams on 
           span.serif Design Operations
           |  and de-risks projects with 
-          span.serif Product Discovery.
-        h4 My design approach is to create solutions that can be systematically reproduced so teams get multiples on design output. I recently worked at 
+          span.serif Product Discovery
+          | . My approach systematic, rapid & iterative.
+        h4 I recently worked at 
           a(href="https://gigster.com") Gigster
           |  as a Senior Product Designer, focused on building design systems, helping teams deliver projects reliably while shipping internal tools and marketing products.
+        h4 I'm currently available for work. Take a look at my 
+          a(href="/img/vikram-resume.pdf") resume
+          |  or reach me, atavikram at gmail dot com.
         fold
           h4 Over my design career, I've been a product design fellow, and held roles in visual design and frontend at agencies and in-house. I also launched the publication 
             a(href="https://medium.com/endless") Endless
