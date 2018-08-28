@@ -1,6 +1,7 @@
 :root {
   --font-family: 'Poppins', sans-serif;
   --headings-font-family: 'Poppins', sans-serif;
+  --font-weight: 300;
   --grid-columns: repeat(4, 1fr);
   --columns-width: 140rem;
   --link-color: var(--gray);
@@ -39,17 +40,12 @@
 
 a {
 	transition: all 500ms ease;
-  font-family: "Stoke", serif;
- 	/* -webkit-text-stroke: 0.8px;     */
-  /* font-size-adjust: 0.26; */
+  font-family: "Domine", serif;
   padding: 0.25rem 0.125rem;
-  font-weight: bold;
 }
 
 .serif {
-  font-family: "Stoke", serif;
-  font-size-adjust: 0.26;
-  font-weight: bold;
+  font-family: "Domine", serif;
 }
 
 nav a {

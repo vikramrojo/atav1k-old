@@ -53,7 +53,7 @@
             |  with the fonts 
             a(href="https://github.com/itfoundry/Poppins") Poppins
             |  and 
-            a(href="https://fonts.google.com/specimen/Stoke") Stoke
+            a(href="https://fonts.google.com/specimen/Domine") Domine
             | .
     section
       .cols
