@@ -40,15 +40,16 @@
 a {
 	transition: all 500ms ease;
   font-family: "Stoke", serif;
- 	/* -webkit-text-stroke: 1px;     */
+ 	/* -webkit-text-stroke: 0.8px;     */
   font-size-adjust: 0.24;
   padding: 0.25rem 0.125rem;
+  font-weight: bold;
 }
 
 .serif {
   font-family: "Stoke", serif;
   font-size-adjust: 0.24;
- 	/* -webkit-text-stroke: 1px;   */
+  font-weight: bold;
 }
 
 nav a {
