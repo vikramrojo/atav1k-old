@@ -5,7 +5,7 @@
   --columns-width: 140rem;
   --link-color: var(--gray);
   font-size: 22px;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.02rem;
   --column-gutter: 5rem;
   --gray: #1864ab;
 }
@@ -46,6 +46,7 @@ a {
 
 .serif {
   font-family: "Stoke", serif;
+  font-weight: 500;
 }
 
 nav a {

@@ -7,7 +7,7 @@ module.exports = {
 
   plugins: [
     { src: '~/plugins/vue-scrollactive'},
-    { src: '~/plugins/vue-tiny-lazyload-img', ssr: false }
+    // { src: '~/plugins/vue-tiny-lazyload-img', ssr: false }
   ],
 
   /* Headers of the page */
@@ -23,7 +23,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Stoke|Poppins:400|Khula:800' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Stoke|Poppins:400|Karma:500' }
     ]
   },
   /* Customize the progress bar color */

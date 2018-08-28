@@ -16,20 +16,25 @@
       .col.marT2
         h3#top
           | Vikram implements 
-          span.serif Design Systems, 
-          |  coaches teams on 
+          span.serif Design Systems
+          | , coaches teams on 
           span.serif Design Operations
-          |  and derisks projects through 
+          |  and de-risks projects with 
           span.serif Product Discovery.
         h4 My design approach is to create solutions that can be systematically reproduced so teams get multiples on design output. I recently worked at 
           a(href="https://gigster.com") Gigster
-          |  focused on buidling design systems, helping teams deliver projects reliably while shipping internal tools and marketing products.
+          |  as a Senior Product Designer, focused on building design systems, helping teams deliver projects reliably while shipping internal tools and marketing products.
         fold
-          h4 Over my design career, I've been a product design fellow, and held roles in visual design and frontend. I also launched a viral publication 
+          h4 Over my design career, I've been a product design fellow, and held roles in visual design and frontend at agencies and in-house. I also launched the publication 
             a(href="https://medium.com/endless") Endless
-            |  growing it to over 30k subscribers and 5M reads in it's brief year of existence. As well, I was a regular contributor to Medium's technology focused 
+            | , growing it to over 30k+ subscribers and 5M+ reads in it's brief year of existence. As well, I was a regular contributor to 
+            span.serif Medium's
+            |  technology focused 
             a(href="https://medium.com/message") Message
-            | . Before that I was a high school teacher heading a mathematics and technology program.
+            | .
+          h4 Before that I was a high school teacher heading a mathematics and technology program. I continue to mentor students at under-resourced schools in frontend and design through 
+            a(href="https://scripted.org") Scripted
+            |  in East Oakland.
           h4
             a(href="https://dribbble.com/atav1k") Dribbble
             | —
@@ -52,20 +57,20 @@
           .h1.marT2(data-heading="Product")#product Product
       .cols.padY2
         .col
-          .h4 Booster—
-            span.serif Component Kit, UX, Frontend, Copywriting
+          .h4 A Needed Booster—
+            span.serif Component Kit, UX, Frontend, Documentation
           p
             span.serif Gigster
             | —2018
           p A Sketch component kit complete with artboards, themeing and presentation layers for contract designers. Distributed through a secure microsite cataloging features and tips.
           .grid.gridCols.gridGap1
-            img(v-lazyload src="/img/img.png" data-src="/img/booster-site1.jpg")
-            img(v-lazyload src="/img/img.png" data-src="/img/booster-site2.jpg")
-            img(v-lazyload src="/img/img.png" data-src="/img/booster-kit1.jpg")
-            img(v-lazyload src="/img/img.png" data-src="/img/booster-kit2.jpg")
+            img(src="/img/booster-site1.jpg")
+            img(src="/img/booster-site2.jpg")
+            img(src="/img/booster-kit1.jpg")
+            img(src="/img/booster-kit2.jpg")
           fold.marT1
             h4 Design operations for contractors
-            p Brining attention to the designer network, there were a wide variety of approaches, tools and outcomes from contractor design work. I worked with a team on how to better guide designers.
+            p Bringing attention to the designer network, there were a wide variety of approaches, tools and outcomes from contractor design work. I worked with a team on how to better guide designers.
             p By interviewing a handful of designers and creating a journey map that captured their experiences at various touchpoints, a roadmap was established for the team. Our first product was a component kit and microsite for designers.
       .cols.padY2
         .col12
@@ -76,13 +81,13 @@
             | —2018
           p A usability study and component survey contributing to internal products like contractor dashboard and adminstrator payout tools. A marketing blog.
           .grid.gridCols.gridGap1
-            img(v-lazyload src="/img/img.png" data-src="/img/booster-kit3.jpg")          
-            img(v-lazyload src="/img/img.png" data-src="/img/gigster-ux1.jpg")
-            img(v-lazyload src="/img/img.png" data-src="/img/gigster-ux2.jpg")
-            img(v-lazyload src="/img/img.png" data-src="/img/gigster-ux6.jpg")
-            img(v-lazyload src="/img/img.png" data-src="/img/gigster-payouts.jpg")
-            img(v-lazyload src="/img/img.png" data-src="/img/gigster-blog1.jpg")
-            img(v-lazyload src="/img/img.png" data-src="/img/gigster-blog2.jpg")
+            img(src="/img/booster-kit3.jpg")          
+            img(src="/img/gigster-ux1.jpg")
+            img(src="/img/gigster-ux2.jpg")
+            img(src="/img/gigster-ux6.jpg")
+            img(src="/img/gigster-payouts.jpg")
+            img(src="/img/gigster-blog1.jpg")
+            img(src="/img/gigster-blog2.jpg")
           fold.marT1
             h4 From concept to prototype
             p Drawing from my experiences as a Frontend Developer, I initiated a project to move internal teams over to a design system to reduce the backlog of unimplemented designs. Prior to my work, the team implemented 5 different frontend environments which was reduced to two.
@@ -104,15 +109,15 @@
             | —2015
           p A new logo with accompanying color and style directions to market order fulfillment services to retailers and makers.
           .grid.gridCols.gridGap1
-            img(v-lazyload src="/img/img.png" data-src="/img/whiplash-logo.jpg")
-            img(v-lazyload src="/img/img.png" data-src="/img/whiplash-guide.jpg")
-            img(v-lazyload src="/img/img.png" data-src="/img/whiplash-style1.jpg")
-            img(v-lazyload src="/img/img.png" data-src="/img/whiplash-style2.jpg")
-            img(v-lazyload src="/img/img.png" data-src="/img/whiplash-mockup.jpg")
+            img(src="/img/whiplash-logo.jpg")
+            img(src="/img/whiplash-guide.jpg")
+            img(src="/img/whiplash-style1.jpg")
+            img(src="/img/whiplash-style2.jpg")
+            img(src="/img/whiplash-mockup.jpg")
           fold.marT1
             h4 Exploring new styles
             p What began as a new logomark eventually continued into a sophisticated brand identity meant to attract medium to large boutique retailers.
-            p I explored a number of different visual styles to see what resonated with the Whiplash team. Following a number of explorations we narrowed the exploration down to some core styles, gradients and fonts.
+            p I explored a number of different visual styles to see what resonated with the Whiplash team. Following a number of explorations we narrowed it down to some core styles, gradients and fonts.
       .cols.padY2
         .col
           .h4 Latam Banking—
@@ -122,10 +127,10 @@
             | —2017
           p A brand identity, style guide, landing page and component guide with accompanying reasearch to take a product from blockchain concept to prototype.
           .grid.gridCols.gridGap1
-            img(v-lazyload src="/img/img.png" data-src="/img/luka-logo.jpg")
-            img(v-lazyload src="/img/img.png" data-src="/img/luka-guide.jpg")
-            img(v-lazyload src="/img/img.png" data-src="/img/luka-marketing.jpg")            
-            img(v-lazyload src="/img/img.png" data-src="/img/luka-components.jpg")
+            img(src="/img/luka-logo.jpg")
+            img(src="/img/luka-guide.jpg")
+            img(src="/img/luka-marketing.jpg")            
+            img(src="/img/luka-components.jpg")
       .cols.padY2
         .col
           .h4 Logo making—
@@ -135,12 +140,12 @@
             | —2017
           p Supplying small projects with logos.
           .grid.gridCols.gridGap1
-            img(v-lazyload src="/img/img.png" data-src="/img/logo-teja-1.jpg")
-            img(v-lazyload src="/img/img.png" data-src="/img/logo-minka.jpg")
-            img(v-lazyload src="/img/img.png" data-src="/img/logo-asap.jpg")
-            img(v-lazyload src="/img/img.png" data-src="/img/logo-push-pull.jpg")
-            img(v-lazyload src="/img/img.png" data-src="/img/logo-wu.jpg")
-            img(v-lazyload src="/img/img.png" data-src="/img/logo-endless.jpg")
+            img(src="/img/logo-teja-1.jpg")
+            img(src="/img/logo-minka.jpg")
+            img(src="/img/logo-asap.jpg")
+            img(src="/img/logo-push-pull.jpg")
+            img(src="/img/logo-wu.jpg")
+            img(src="/img/logo-endless.jpg")
     section
       .cols
         .col.bordT1
