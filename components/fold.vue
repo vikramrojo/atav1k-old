@@ -4,9 +4,11 @@
       <div class="fold-content" v-if="active">
         <slot></slot>
       </div>
-    </transition>    
+    </transition>
     <div class="fold-header" role="tab" :aria-expanded="active ? 'true' : 'false'" @click.prevent="toggle">
-      {{ active ? 'Less information' : 'More information' }}</div>
+      <img src="~/static/img/view.svg" /> 
+      {{ active ? 'Less information' : 'More information' }}
+    </div>
   </div>
 </template>
 
