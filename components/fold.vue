@@ -6,7 +6,7 @@
       </div>
     </transition>    
     <div class="fold-header" role="tab" :aria-expanded="active ? 'true' : 'false'" @click.prevent="toggle">
-      {{ active ? 'Less information' : 'More information' }}    </div>
+      {{ active ? 'Less information' : 'More information' }}</div>
   </div>
 </template>
 

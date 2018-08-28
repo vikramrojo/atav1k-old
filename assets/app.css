@@ -52,6 +52,10 @@ nav a {
   font-family: inherit;
 }
 
+.fold-header {
+  cursor: ns-resize;
+}
+
 nav a.small{
   cursor: nesw-resize;
 }

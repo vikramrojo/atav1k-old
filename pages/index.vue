@@ -25,11 +25,11 @@
           a(href="https://gigster.com") Gigster
           |  focused on buidling design systems, helping teams deliver projects reliably while shipping internal tools and marketing products.
         fold
-          h4 Over my design career, I've been a product design fellow, and held roles in visual design and frontend. I launched a viral publication 
+          h4 Over my design career, I've been a product design fellow, and held roles in visual design and frontend. I also launched a viral publication 
             a(href="https://medium.com/endless") Endless
-            |  growing it to over 30k subscribers and 5M reads and was a regular contributor to Medium's technology focused 
+            |  growing it to over 30k subscribers and 5M reads in it's brief year of existence. As well, I was a regular contributor to Medium's technology focused 
             a(href="https://medium.com/message") Message
-            | . My writing has been syndicated on Huffington Post and The Morning News. Before that I was a high school teacher heading a mathematics and technology program.
+            | . Before that I was a high school teacher heading a mathematics and technology program.
           h4
             a(href="https://dribbble.com/atav1k") Dribbble
             | —
@@ -40,11 +40,11 @@
             a(href="https://medium.com/@atav1k/") Medium
           h3.marT2 Colophon
           h4 This static site was built in Vue using my own CSS variables driven framework 
-            a(href="") Fortune
+            a(href="github.com/atav1k/fortune") Fortune
             |  with the fonts 
-            a(href="") Poppins
+            a(href="https://github.com/itfoundry/Poppins") Poppins
             |  and 
-            a(href="") Stoke
+            a(href="https://fonts.google.com/specimen/Stoke") Stoke
             | .
     section
       .cols
