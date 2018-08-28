@@ -7,7 +7,7 @@
   font-size: 22px;
   letter-spacing: 0.02rem;
   --column-gutter: 5rem;
-  --gray: #1864ab;
+  /* --gray: #1864ab; */
 }
 
 @media screen and (max-width: 768px) {
@@ -41,14 +41,14 @@ a {
 	transition: all 500ms ease;
   font-family: "Stoke", serif;
  	/* -webkit-text-stroke: 0.8px;     */
-  font-size-adjust: 0.24;
+  /* font-size-adjust: 0.26; */
   padding: 0.25rem 0.125rem;
   font-weight: bold;
 }
 
 .serif {
   font-family: "Stoke", serif;
-  font-size-adjust: 0.24;
+  font-size-adjust: 0.26;
   font-weight: bold;
 }
 
