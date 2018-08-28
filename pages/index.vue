@@ -1,115 +1,182 @@
 <template lang="pug">
   main.main
-    .fixed.wid100.bgWhite.bordB1.z10
+    .fixed.wid100.bordB1.z10.bgWhite
       nav.nav.cols
-        scrollactive(:offset="60").navLeft.col
-          .bold.black Vikram Babu
+        scrollactive(:offset="70").navLeft.col
+          a.scrollactive-item(href="#top").bold.hide.padL0 Vikram Babu
           a.scrollactive-item(href="#product") Product
           a.scrollactive-item(href="#design") Design
-          a Writing
+          a.scrollactive-item(href="#words") Words
         .navRight.col#gridsize.hide
           .small.silver Resize
-          a.small(v-on:click="gridXs") XS
           a.small(v-on:click="gridSm") SM
           a.small(v-on:click="gridMd") MD
           a.small(v-on:click="gridLg") LG
-    section.cols.padY1
-      .col8.marT4
-        h3 I'm Vikram. I implement Design Systems, build teams with Design Operations and deliver successes through Product Discovery.
-        p Based in Oakland, California, I recently worked at Gigster focusing on architecting design systems to help teams deliver projects reliably while shipping internal tools and marketing products.
-        p Previously, I've been a product design fellow, and held roles in visual design and frontend. I write code, tweets and essays. Sometimes I photograph places.
+    section.cols.padY2
+      .col.marT2
+        h3#top
+          | Vikram implements 
+          span.serif Design Systems, 
+          |  coaches teams on 
+          span.serif Design Operations
+          |  and derisks projects through 
+          span.serif Product Discovery.
+        h4 My design approach is to create solutions that can be systematically reproduced so teams get multiples on design output. I recently worked at 
+          a(href="https://gigster.com") Gigster
+          |  focused on buidling design systems, helping teams deliver projects reliably while shipping internal tools and marketing products.
+        fold
+          h4 Over my design career, I've been a product design fellow, and held roles in visual design and frontend. I launched a viral publication 
+            a(href="https://medium.com/endless") Endless
+            |  growing it to over 30k subscribers and 5M reads and was a regular contributor to Medium's technology focused 
+            a(href="https://medium.com/message") Message
+            | . My writing has been syndicated on Huffington Post and The Morning News. Before that I was a high school teacher heading a mathematics and technology program.
+          h4
+            a(href="https://dribbble.com/atav1k") Dribbble
+            | —
+            a(href="https://github.com/atav1k") Github
+            | —
+            a(href="https://www.linkedin.com/in/atav1k/") LinkedIn
+            | —
+            a(href="https://medium.com/@atav1k/") Medium
+          h3.marT2 Colophon
+          h4 This static site was built in Vue using my own CSS variables driven framework 
+            a(href="") Fortune
+            |  with the fonts 
+            a(href="") Poppins
+            |  and 
+            a(href="") Stoke
+            | .
     section
-      .cols.bordT1.bordB1.padY1
+      .cols
+        .col.bordT1
+          .h1.marT2(data-heading="Product")#product Product
+      .cols.padY2
         .col
-          .h1(data-heading="Product")#product Product
-      .cols.bordB1.padY2
-        .col8
-          .h3 Booster — Design System, CSS, Documentation
-          .h5.uppercase Gigster, 2018
-          p Design smarter to deliver great experiences across multiple client projects, every time. Booster helps Gigster designers deliver prototypes and guides quickly.
-        .col12
+          .h4 Booster—
+            span.serif Component Kit, UX, Frontend, Copywriting
+          p
+            span.serif Gigster
+            | —2018
+          p A Sketch component kit complete with artboards, themeing and presentation layers for contract designers. Distributed through a secure microsite cataloging features and tips.
           .grid.gridCols.gridGap1
             img(v-lazyload src="/img/img.png" data-src="/img/booster-site1.jpg")
             img(v-lazyload src="/img/img.png" data-src="/img/booster-site2.jpg")
             img(v-lazyload src="/img/img.png" data-src="/img/booster-kit1.jpg")
             img(v-lazyload src="/img/img.png" data-src="/img/booster-kit2.jpg")
-            img(v-lazyload src="/img/img.png" data-src="/img/booster-kit3.jpg")
-      .cols.bordB1.padY2
-        .col8
-          .h3 Gigster Tools — UX/UI, Usabilty, Product Management
-          .h5.uppercase Gigster, 2018
-          p Design smarter to deliver great experiences across multiple client projects, every time. Booster helps Gigster designers deliver prototypes and guides quickly.
+          fold.marT1
+            h4 Design operations for contractors
+            p Brining attention to the designer network, there were a wide variety of approaches, tools and outcomes from contractor design work. I worked with a team on how to better guide designers.
+            p By interviewing a handful of designers and creating a journey map that captured their experiences at various touchpoints, a roadmap was established for the team. Our first product was a component kit and microsite for designers.
+      .cols.padY2
         .col12
+          .h4 Tools & Marketing—
+            span.serif UX/UI, Usabilty, CSS, Project Management
+          p
+            span.serif Gigster
+            | —2018
+          p A usability study and component survey contributing to internal products like contractor dashboard and adminstrator payout tools. A marketing blog.
           .grid.gridCols.gridGap1
+            img(v-lazyload src="/img/img.png" data-src="/img/booster-kit3.jpg")          
             img(v-lazyload src="/img/img.png" data-src="/img/gigster-ux1.jpg")
             img(v-lazyload src="/img/img.png" data-src="/img/gigster-ux2.jpg")
             img(v-lazyload src="/img/img.png" data-src="/img/gigster-ux6.jpg")
             img(v-lazyload src="/img/img.png" data-src="/img/gigster-payouts.jpg")
             img(v-lazyload src="/img/img.png" data-src="/img/gigster-blog1.jpg")
             img(v-lazyload src="/img/img.png" data-src="/img/gigster-blog2.jpg")
-      .cols.bordB1.padY2
-        .col8
-          .h3 Depict — Design, Prototype, CSS
-          .h5.uppercase Gigster, 2015
-          p Depict needed a
-        .col12
-          .grid.gridCols.gridGap1
-            img(v-lazyload src="/img/img.png" data-src="/img/depict-web.jpg")
-            img(v-lazyload src="/img/img.png" data-src="/img/depict-ios.jpg")
-            img(v-lazyload src="/img/img.png" data-src="/img/depict-prototype.jpg")
+          fold.marT1
+            h4 From concept to prototype
+            p Drawing from my experiences as a Frontend Developer, I initiated a project to move internal teams over to a design system to reduce the backlog of unimplemented designs. Prior to my work, the team implemented 5 different frontend environments which was reduced to two.
+            p Response time on requested prototypes went from weeks to 48 hours. Developer implementation likewise was significantly reduced from a peak of 8 months to 1-2 months. The introduction of design constraints through 8px baseline grids and components significantly reduced QA issues during staging.
+            p As we rapidly doubled the design team, I researched and authored a heuristic to systematically evaluate user interfaces. The product group used this heuristic to survey existing products and emerging features for a wide array of experience fails.
+            h4 Transferring knowledge to Marketing 
+            p The maintenance of public sites was bogged down by a poor implementation and it no longer met the requirements of a newly formed marketing team. Seeing an opportunity to improve our CSS implementation, which stood at over 500kb, 10k declarations, 300 fonts sizes & 750 dimensions, I founded a framework that simplified our CSS to just 50kb, 800 declarations, 20 font sizes & 75 dimensions.
+            p I led the migration on the backend from a poorly structured React app to a thoroughly componentized Server Side Rendered Vue app with the headless CMS Contentful supporting the build. The average time to launch marketing pages shifted from 3 months to 2-3 weeks given improvements in how operations were ordered and templates were generated.
     section
-      .cols.bordB1.padY1
+      .cols
+        .col.bordT1
+          .h1.marT2(data-heading="Design")#design Design
+      .cols.padY2
         .col
-          .h1(data-heading="Design")#design Design
-      .cols.bordB1.padY2
-        .col
-          .h3 Whiplash — Brand
-          .h5.uppercase Whiplash, 2015
-          .h4 Whiplash needed a rebrand
+          .h4 Reordering Fulfillment—
+            span.serif Branding
+          p
+            span.serif Whiplash
+            | —2015
+          p A new logo with accompanying color and style directions to market order fulfillment services to retailers and makers.
           .grid.gridCols.gridGap1
             img(v-lazyload src="/img/img.png" data-src="/img/whiplash-logo.jpg")
             img(v-lazyload src="/img/img.png" data-src="/img/whiplash-guide.jpg")
             img(v-lazyload src="/img/img.png" data-src="/img/whiplash-style1.jpg")
             img(v-lazyload src="/img/img.png" data-src="/img/whiplash-style2.jpg")
             img(v-lazyload src="/img/img.png" data-src="/img/whiplash-mockup.jpg")
+          fold.marT1
+            h4 Exploring new styles
+            p What began as a new logomark eventually continued into a sophisticated brand identity meant to attract medium to large boutique retailers.
+            p I explored a number of different visual styles to see what resonated with the Whiplash team. Following a number of explorations we narrowed the exploration down to some core styles, gradients and fonts.
+      .cols.padY2
+        .col
+          .h4 Latam Banking—
+            span.serif Branding
+          p
+            span.serif Luka
+            | —2017
+          p A brand identity, style guide, landing page and component guide with accompanying reasearch to take a product from blockchain concept to prototype.
+          .grid.gridCols.gridGap1
+            img(v-lazyload src="/img/img.png" data-src="/img/luka-logo.jpg")
+            img(v-lazyload src="/img/img.png" data-src="/img/luka-guide.jpg")
+            img(v-lazyload src="/img/img.png" data-src="/img/luka-marketing.jpg")            
+            img(v-lazyload src="/img/img.png" data-src="/img/luka-components.jpg")
+      .cols.padY2
+        .col
+          .h4 Logo making—
+            span.serif Branding
+          p
+            span.serif Misc
+            | —2017
+          p Supplying small projects with logos.
+          .grid.gridCols.gridGap1
+            img(v-lazyload src="/img/img.png" data-src="/img/logo-teja-1.jpg")
+            img(v-lazyload src="/img/img.png" data-src="/img/logo-minka.jpg")
+            img(v-lazyload src="/img/img.png" data-src="/img/logo-asap.jpg")
+            img(v-lazyload src="/img/img.png" data-src="/img/logo-push-pull.jpg")
+            img(v-lazyload src="/img/img.png" data-src="/img/logo-wu.jpg")
+            img(v-lazyload src="/img/img.png" data-src="/img/logo-endless.jpg")
+    section
+      .cols
+        .col.bordT1
+          .h1.marT2(data-heading="Words")#words Words
       .cols.bordB1.padY2
         .col
-          .h3 Minka — Brand
-          .h5.uppercase Minka, 2018
-          p Research shows that Latin Americans underutilize banking services. With a growing demand among young adults for mobile finance, we asked, what if there was a better bill payment option.
-          p Luka hired me to produce the brand identity, pitch deck, landing page and take the product from blockchain concept to mobile and chat prototype.
-          .grid.gridCols.gridGap1
-            img(v-lazyload src="/img/img.png" data-src="/img/luka-app.png")
-            img(v-lazyload src="/img/img.png" data-src="/img/luka-components.png")
-            img(v-lazyload src="/img/img.png" data-src="/img/luka-intro.png")
-            img(v-lazyload src="/img/img.png" data-src="/img/luka-prototypes.png")
+          .h4 Do You Know What Your Toddler Is Watching On YouTube?
+          p An essay with commissioned artwork for a piece after watching toddlers use an iPad to surf YouTube.
+            br
+            a(href="http://medium.com/message/do-you-know-what-your-toddler-is-watching-on-youtube-409e71bd4cba") Message
+            | —2015
+          .h4 Is Mars Man's Midlife Crisis
+          p A response to the Mars hype looking into the motivations and implications of Mars colonization with commissioned artwork.
+            br
+            a(href="https://medium.com/message/is-mars-man-s-midlife-crisis-cab4723c611d") Message
+            | —2015
+          .h4 Surveying Your Identity Or Surveillance
+          p A speculative design essay on how do we might better identify users online beyond traditional fields and binaries.
+            br
+            a(href="https://medium.com/message/beyond-identity-binary-and-surveillance-d287f65521cd") Message
+            | —2015
     nav.nav.cols
-      .col.navLeft.dark
-        a Dribbble
-        a Github
-        a Medium
+      .col.navLeft
+        a(href="https://dribbble.com/atav1k") Dribbble
+        a(href="https://github.com/atav1k") Github
+        a(href="https://www.linkedin.com/in/atav1k/") LinkedIn
+        a(href="https://medium.com/@atav1k/") Medium
 </template>
-<style>
-:root{
-}
-
-@media screen and (max-width: 48rem) {
-  .grid {
-    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-  }
-}
-</style>
 <script>
+import Fold from "~/components/fold"
+
 export default {
-  mounted: function() {
-    const grid = document.querySelector(".grid");
-    animateCSSGrid.wrapGrid(grid, {duration : 600});
+  components: {
+    Fold,
   },
   methods: {
-    gridXs: function (event) {
-      var box = document.querySelector(".main");
-      box.style.setProperty('--grid-columns', 'repeat(6, 1fr)')
-    },
     gridSm: function (event) {
       var box = document.querySelector(".main");
       box.style.setProperty('--grid-columns', 'repeat(4, 1fr)')

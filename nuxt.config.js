@@ -7,7 +7,7 @@ module.exports = {
 
   plugins: [
     { src: '~/plugins/vue-scrollactive'},
-    { src: '~/plugins/vue-tiny-lazyload-img', ssr: false }  
+    { src: '~/plugins/vue-tiny-lazyload-img', ssr: false }
   ],
 
   /* Headers of the page */
@@ -19,11 +19,11 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Portfolio' }
     ],
     script: [
-      { src: 'https://unpkg.com/animate-css-grid@latest' }
+      // { src: 'https://unpkg.com/animate-css-grid@latest' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Archivo|Archivo+Black' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Stoke|Poppins:400|Khula:800' }
     ]
   },
   /* Customize the progress bar color */
