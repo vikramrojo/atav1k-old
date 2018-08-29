@@ -3,7 +3,7 @@
   --headings-font-family: 'Poppins', sans-serif;
   --font-weight: 300;
   --grid-columns: repeat(4, 1fr);
-  --columns-width: 140rem;
+  --columns-width: 104rem;
   --link-color: var(--teal);
   font-size: 22px;
   letter-spacing: 0.02rem;
