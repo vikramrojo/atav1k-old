@@ -12,6 +12,7 @@
           a.small(v-on:click="gridSm") SM
           a.small(v-on:click="gridMd") MD
           a.small(v-on:click="gridLg") LG
+          a.small(v-on:click="gridXl") XL
     section.cols.padY2
       .col.marT2
         h3#top
@@ -68,7 +69,8 @@
             | —2018
           p A usability study and component survey contributing to internal products like contractor dashboard and adminstrator payout tools. A marketing blog.
           .grid.gridCols.gridGap1
-            img(src="/img/booster-kit3.jpg")          
+            img(src="/img/gigster-kit2.jpg")       
+            img(src="/img/gigster-kit1.jpg")                         
             img(src="/img/gigster-ux1.jpg")
             img(src="/img/gigster-ux2.jpg")
             img(src="/img/gigster-ux6.jpg")
@@ -211,7 +213,11 @@ export default {
     gridLg: function (event) {
       var box = document.querySelector(".main");
       box.style.setProperty('--grid-columns', 'repeat(2, 1fr)')
-    }
+    },
+    gridXl: function (event) {
+      var box = document.querySelector(".main");
+      box.style.setProperty('--grid-columns', 'repeat(1, 1fr)')
+    }    
   },
 }
 </script>
