@@ -24,7 +24,7 @@
           | . My approach is systematic, rapid & iterative.
         h4 I recently worked at 
           a(href="https://gigster.com") Gigster
-          |  as a Product Designer, focused on building design systems, helping teams deliver projects reliably while shipping internal tools and marketing products.
+          |  as a Senior Product Designer, focused on building design systems, helping teams deliver projects reliably while shipping internal tools and marketing products.
         h4 I'm currently available for work. Take a look at my 
           a(href="/img/vikram-resume.pdf") resume
           |  or reach me, atavikram at gmail dot com.
@@ -61,7 +61,7 @@
           .h1.marT2(data-heading="Product")#product Product
       .cols.padY2
         .col
-          .h4 A Needed Booster—
+          .h4 Design Booster—
             span.serif Component Kit, UX, Frontend, Documentation
           p
             span.serif Gigster
@@ -151,7 +151,7 @@
             img(src="/img/luka-components.jpg")
       .cols.padY2
         .col
-          .h4 Logo making—
+          .h4 Logo Making—
             span.serif Branding
           p
             span.serif Misc
