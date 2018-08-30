@@ -22,7 +22,7 @@
           span.serif Design Operations
           |  and de-risks projects with 
           span.serif Product Discovery
-          | . My approach is systematic, rapid and iterative.
+          | .
         h4 I recently worked at 
           a(href="https://gigster.com") Gigster
           |  as a Senior Product Designer, where I led application design and usability using design systems, for our internal tools and marketing products.
