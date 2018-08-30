@@ -49,7 +49,9 @@
             | —
             a(href="https://medium.com/@atav1k/") Medium
           h3.marT2 Colophon
-          h4 This static site was built in Vue using my own CSS variables driven framework 
+          h4 This 
+            a(href="https://github.com/atav1k/atav1k") static site
+            |  was built in Vue using my own CSS variables driven framework 
             a(href="https://github.com/atav1k/fortune") Fortune
             |  with the fonts 
             a(href="https://github.com/itfoundry/Poppins") Poppins
