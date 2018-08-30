@@ -21,17 +21,17 @@
           span.serif Design Operations
           |  and de-risks projects with 
           span.serif Product Discovery
-          | . My approach is systematic, rapid & iterative.
+          | . My approach is systematic, rapid and iterative.
         h4 I recently worked at 
           a(href="https://gigster.com") Gigster
-          |  as a Senior Product Designer, focused on building design systems, helping teams deliver projects reliably while shipping internal tools and marketing products.
+          |  as a Senior Product Designer, where I led application design and usability using design systems, for our internal tools and marketing products.
         h4 I'm currently available for work. Take a look at my 
           a(href="/img/vikram-resume.pdf") resume
           |  or reach me, atavikram at gmail dot com.
         fold
           h4 Over my design career, I've been a product design fellow, and held roles in visual design and frontend at agencies and in-house. I also launched the publication 
             a(href="https://medium.com/endless") Endless
-            | , growing it to over 30k+ subscribers and 5M+ reads in it's brief year of existence. As well, I was a regular contributor to 
+            | , growing it to over 30k+ subscribers and 5M+ reads in its brief year of existence. As well, I was a regular contributor to 
             span.serif Medium's
             |  technology focused 
             a(href="https://medium.com/message") Message
@@ -60,6 +60,37 @@
         .col.bordT1
           .h1.marT2(data-heading="Product")#product Product
       .cols.padY2
+        .col12
+          .h4 Tools & Marketing—
+            span.serif UX/UI, Usabilty, CSS, Project Management
+          p
+            span.serif Gigster
+            | —2018
+          p A usability study and component survey contributing to internal products like contractor dashboard and adminstrator payout tools. A marketing blog.
+          .grid.gridCols.gridGap1
+            img(src="/img/booster-kit3.jpg")          
+            img(src="/img/gigster-ux1.jpg")
+            img(src="/img/gigster-ux2.jpg")
+            img(src="/img/gigster-ux6.jpg")
+            img(src="/img/gigster-payouts.jpg")
+            img(src="/img/gigster-blog1.jpg")
+            img(src="/img/gigster-blog2.jpg")
+          fold(selected=true).marT1
+            h4 From concept to prototype
+            p Drawing from my experiences as a Frontend Developer, I initiated a project to move internal teams over to a design system to reduce the backlog of unimplemented designs. Prior to my work, the team implemented 3 different frontend environments which was reduced to two.
+            p Response time on requested prototypes went from weeks to 48 hours. Developer implementation likewise was significantly reduced from a peak of 8 months to 1-2 months. The introduction of design constraints through 8px baseline grids and components significantly reduced QA issues during staging. In one instance, a payout tool went from prototype to product in 
+            p As we rapidly doubled the design team, I researched and authored a heuristic to systematically evaluate user interfaces. The product group used this heuristic to survey existing products and emerging features for a wide array of experience fails.
+            h4 Transferring knowledge to Marketing 
+            p The maintenance of public sites was bogged down by a poor implementation and it no longer met the requirements of a newly formed marketing team. Seeing an opportunity to improve our CSS implementation, which stood at over 500kb, 10k declarations, 300 fonts sizes & 750 dimensions, I founded a framework that simplified our CSS to just 50kb, 800 declarations, 20 font sizes & 75 dimensions.
+            .grid.gridCols.gridGap1.marB1
+              img(src="/img/gigster-landing1.jpg")
+              img(src="/img/gigster-landing2.jpg")
+              img(src="/img/gigster-landing3.jpg")            
+            p I led the migration on the backend from a poorly structured React app to a thoroughly componentized Server Side Rendered Vue app with the headless CMS Contentful supporting the build. The average time to launch marketing pages shifted from 3 months to 2-3 weeks given improvements in how operations were ordered and templates were generated.
+            blockquote Vikram is intelligent and self-motivated, driven to work to the best of his ability. He pursued continuous improvement staying informed about the latest design trends and showing interest in the strategic direction of the company. He moderates project discussions collaboratively, pulling together multiple stakeholders, and prioritizing necessary actions. His ability to work closely with engineers allowed us to ship a new blog faster and more efficiently compared to similar previous projects.
+              br
+              | —Alonzo Felix, Design Director at Gigster
+      .cols.padY2
         .col
           .h4 Design Booster—
             span.serif Component Kit, UX, Frontend, Documentation
@@ -80,38 +111,6 @@
               img(src="/img/booster-map2.jpg")            
             p By interviewing a handful of designers and creating a journey map that captured their experiences at various touchpoints, a roadmap was established for the team. Our first product was a component kit and microsite for designers.
             blockquote Vikram helped grow our global design network by 25% in one quarter, screening and helping recruit qualified designers. And he led work on a design system for that network, helping to increase reliable outputs across a diverse range of client projects.
-              br
-              | —Alonzo Felix, Design Director at Gigster
-
-      .cols.padY2
-        .col12
-          .h4 Tools & Marketing—
-            span.serif UX/UI, Usabilty, CSS, Project Management
-          p
-            span.serif Gigster
-            | —2018
-          p A usability study and component survey contributing to internal products like contractor dashboard and adminstrator payout tools. A marketing blog.
-          .grid.gridCols.gridGap1
-            img(src="/img/booster-kit3.jpg")          
-            img(src="/img/gigster-ux1.jpg")
-            img(src="/img/gigster-ux2.jpg")
-            img(src="/img/gigster-ux6.jpg")
-            img(src="/img/gigster-payouts.jpg")
-            img(src="/img/gigster-blog1.jpg")
-            img(src="/img/gigster-blog2.jpg")
-          fold(selected=true).marT1
-            h4 From concept to prototype
-            p Drawing from my experiences as a Frontend Developer, I initiated a project to move internal teams over to a design system to reduce the backlog of unimplemented designs. Prior to my work, the team implemented 5 different frontend environments which was reduced to two.
-            p Response time on requested prototypes went from weeks to 48 hours. Developer implementation likewise was significantly reduced from a peak of 8 months to 1-2 months. The introduction of design constraints through 8px baseline grids and components significantly reduced QA issues during staging.
-            p As we rapidly doubled the design team, I researched and authored a heuristic to systematically evaluate user interfaces. The product group used this heuristic to survey existing products and emerging features for a wide array of experience fails.
-            h4 Transferring knowledge to Marketing 
-            p The maintenance of public sites was bogged down by a poor implementation and it no longer met the requirements of a newly formed marketing team. Seeing an opportunity to improve our CSS implementation, which stood at over 500kb, 10k declarations, 300 fonts sizes & 750 dimensions, I founded a framework that simplified our CSS to just 50kb, 800 declarations, 20 font sizes & 75 dimensions.
-            .grid.gridCols.gridGap1.marB1
-              img(src="/img/gigster-landing1.jpg")
-              img(src="/img/gigster-landing2.jpg")
-              img(src="/img/gigster-landing3.jpg")            
-            p I led the migration on the backend from a poorly structured React app to a thoroughly componentized Server Side Rendered Vue app with the headless CMS Contentful supporting the build. The average time to launch marketing pages shifted from 3 months to 2-3 weeks given improvements in how operations were ordered and templates were generated.
-            blockquote Vikram is intelligent and self-motivated, driven to work to the best of his ability. He pursued continuous improvement staying informed about the latest design trends and showing interest in the strategic direction of the company. He moderates project discussions collaboratively, pulling together multiple stakeholders, and prioritizing necessary actions. His ability to work closely with engineers allowed us to ship a new blog faster and more efficiently compared to similar previous projects.
               br
               | —Alonzo Felix, Design Director at Gigster
     section

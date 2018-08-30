@@ -12,11 +12,11 @@ module.exports = {
 
   /* Headers of the page */
   head: {
-    title: 'atav1k',
+    title: 'vikram.be',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Portfolio' }
+      { hid: 'description', name: 'description', content: 'A portfolio site' }
     ],
     script: [
       // { src: 'https://unpkg.com/animate-css-grid@latest' }
