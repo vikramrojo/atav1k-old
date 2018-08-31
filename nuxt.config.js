@@ -7,7 +7,7 @@ module.exports = {
 
   plugins: [
     { src: '~/plugins/vue-scrollactive'},
-    // { src: '~/plugins/vue-tiny-lazyload-img', ssr: false }
+    { src: '~/plugins/vue-lazy-images'}
   ],
 
   /* Headers of the page */

@@ -71,14 +71,14 @@
             | —2018
           p A usability study and component survey contributing to internal products like contractor dashboard and adminstrator payout tools. A marketing blog.
           .grid.gridCols.gridGap1
-            img(src="/img/gigster-kit2.jpg")       
-            img(src="/img/gigster-kit1.jpg")                         
-            img(src="/img/gigster-ux1.jpg")
-            img(src="/img/gigster-ux2.jpg")
-            img(src="/img/gigster-ux6.jpg")
-            img(src="/img/gigster-payouts.jpg")
-            img(src="/img/gigster-blog1.jpg")
-            img(src="/img/gigster-blog2.jpg")
+            lazy-image(src="/img/gigster-kit2.jpg" placeholder="/img/img.png" img-class="lazy")
+            lazy-image(src="/img/gigster-kit1.jpg" placeholder="/img/img.png" img-class="lazy")
+            lazy-image(src="/img/gigster-ux1.jpg" placeholder="/img/img.png" img-class="lazy")          
+            lazy-image(src="/img/gigster-ux2.jpg" placeholder="/img/img.png" img-class="lazy")          
+            lazy-image(src="/img/gigster-ux6.jpg" placeholder="/img/img.png" img-class="lazy")          
+            lazy-image(src="/img/gigster-payouts.jpg" placeholder="/img/img.png" img-class="lazy")          
+            lazy-image(src="/img/gigster-blog1.jpg" placeholder="/img/img.png" img-class="lazy")          
+            lazy-image(src="/img/gigster-blog2.jpg" placeholder="/img/img.png" img-class="lazy")          
           fold(selected=true).marT1
             h4 From concept to prototype
             p Drawing from my experiences as a Frontend Developer, I initiated a project to move internal teams over to a design system to reduce the backlog of unimplemented designs. Prior to my work, the team implemented 3 different frontend environments which was reduced to two.
@@ -87,9 +87,9 @@
             h4 Transferring knowledge to Marketing 
             p The maintenance of public sites was bogged down by a poor implementation and it no longer met the requirements of a newly formed marketing team. Seeing an opportunity to improve our CSS implementation, which stood at over 500kb, 10k declarations, 300 fonts sizes & 750 dimensions, I founded a framework that simplified our CSS to just 50kb, 800 declarations, 20 font sizes & 75 dimensions.
             .grid.gridCols.gridGap1.marB1
-              img(src="/img/gigster-landing1.jpg")
-              img(src="/img/gigster-landing2.jpg")
-              img(src="/img/gigster-landing3.jpg")            
+              lazy-image(src="/img/gigster-landing1.jpg" placeholder="/img/img.png" img-class="lazy")          
+              lazy-image(src="/img/gigster-landing2.jpg" placeholder="/img/img.png" img-class="lazy")          
+              lazy-image(src="/img/gigster-landing3.jpg" placeholder="/img/img.png" img-class="lazy")          
             p I led the migration on the backend from a poorly structured React app to a thoroughly componentized Server Side Rendered Vue app with the headless CMS Contentful supporting the build. The average time to launch marketing pages shifted from 3 months to 2-3 weeks given improvements in how operations were ordered and templates were generated.
             blockquote Vikram is intelligent and self-motivated, driven to work to the best of his ability. He pursued continuous improvement staying informed about the latest design trends and showing interest in the strategic direction of the company. He moderates project discussions collaboratively, pulling together multiple stakeholders, and prioritizing necessary actions. His ability to work closely with engineers allowed us to ship a new blog faster and more efficiently compared to similar previous projects.
               br
@@ -103,16 +103,16 @@
             | —2018
           p A Sketch component kit complete with artboards, themeing and presentation layers for contract designers. Distributed through a secure microsite cataloging features and tips.
           .grid.gridCols.gridGap1
-            img(src="/img/booster-site1.jpg")
-            img(src="/img/booster-site2.jpg")
-            img(src="/img/booster-kit1.jpg")
-            img(src="/img/booster-kit2.jpg")
+            lazy-image(src="/img/booster-site1.jpg" placeholder="/img/img.png" img-class="lazy")          
+            lazy-image(src="/img/booster-site2.jpg" placeholder="/img/img.png" img-class="lazy")          
+            lazy-image(src="/img/booster-kit1.jpg" placeholder="/img/img.png" img-class="lazy")          
+            lazy-image(src="/img/booster-kit2.jpg" placeholder="/img/img.png" img-class="lazy")
           fold(selected=true).marT1
             h4 Design operations for contractors
             p Bringing attention to the designer network, there were a wide variety of approaches, tools and outcomes from contractor design work. I worked with a team on how to better guide designers.
             .grid.gridCols.gridGap1.marB1
-              img(src="/img/booster-map1.jpg")
-              img(src="/img/booster-map2.jpg")            
+              lazy-image(src="/img/booster-map1.jpg" placeholder="/img/img.png" img-class="lazy")          
+              lazy-image(src="/img/booster-map2.jpg" placeholder="/img/img.png" img-class="lazy")          
             p By interviewing a handful of designers and creating a journey map that captured their experiences at various touchpoints, a roadmap was established for the team. Our first product was a component kit and microsite for designers.
             blockquote Vikram helped grow our global design network by 25% in one quarter, screening and helping recruit qualified designers. And he led work on a design system for that network, helping to increase reliable outputs across a diverse range of client projects.
               br
@@ -130,11 +130,11 @@
             | —2015
           p A new logo with accompanying color and style directions to market order fulfillment services to retailers and makers.
           .grid.gridCols.gridGap1
-            img(src="/img/whiplash-logo.jpg")
-            img(src="/img/whiplash-guide.jpg")
-            img(src="/img/whiplash-style1.jpg")
-            img(src="/img/whiplash-style2.jpg")
-            img(src="/img/whiplash-mockup.jpg")
+            lazy-image(placeholder="/img/img.png" img-class="lazy" src="/img/whiplash-logo.jpg")
+            lazy-image(placeholder="/img/img.png" img-class="lazy" src="/img/whiplash-guide.jpg")
+            lazy-image(placeholder="/img/img.png" img-class="lazy" src="/img/whiplash-style1.jpg")
+            lazy-image(placeholder="/img/img.png" img-class="lazy" src="/img/whiplash-style2.jpg")
+            lazy-image(placeholder="/img/img.png" img-class="lazy" src="/img/whiplash-mockup.jpg")
           fold.marT1
             h4 Exploring new styles
             p What began as a new logomark eventually continued into a sophisticated brand identity meant to attract medium to large boutique retailers.
@@ -148,10 +148,10 @@
             | —2017
           p A brand identity, style guide, landing page and component guide with accompanying reasearch to take a product from blockchain concept to prototype.
           .grid.gridCols.gridGap1
-            img(src="/img/luka-logo.jpg")
-            img(src="/img/luka-guide.jpg")
-            img(src="/img/luka-marketing.jpg")            
-            img(src="/img/luka-components.jpg")
+            lazy-image(placeholder="/img/img.png" img-class="lazy" src="/img/luka-logo.jpg")
+            lazy-image(placeholder="/img/img.png" img-class="lazy" src="/img/luka-guide.jpg")
+            lazy-image(placeholder="/img/img.png" img-class="lazy" src="/img/luka-marketing.jpg")            
+            lazy-image(placeholder="/img/img.png" img-class="lazy" src="/img/luka-components.jpg")
       .cols.padY2
         .col
           .h4 Logo Making—
@@ -161,12 +161,12 @@
             | —2017
           p Supplying small projects with logos.
           .grid.gridCols.gridGap1
-            img(src="/img/logo-teja-1.jpg")
-            img(src="/img/logo-minka.jpg")
-            img(src="/img/logo-asap.jpg")
-            img(src="/img/logo-push-pull.jpg")
-            img(src="/img/logo-wu.jpg")
-            img(src="/img/logo-endless.jpg")
+            lazy-image(placeholder="/img/img.png" img-class="lazy" src="/img/logo-teja-1.jpg")
+            lazy-image(placeholder="/img/img.png" img-class="lazy" src="/img/logo-minka.jpg")
+            lazy-image(placeholder="/img/img.png" img-class="lazy" src="/img/logo-asap.jpg")
+            lazy-image(placeholder="/img/img.png" img-class="lazy" src="/img/logo-push-pull.jpg")
+            lazy-image(placeholder="/img/img.png" img-class="lazy" src="/img/logo-wu.jpg")
+            lazy-image(placeholder="/img/img.png" img-class="lazy" src="/img/logo-endless.jpg")
     section
       .cols
         .col.bordT1
