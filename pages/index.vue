@@ -57,7 +57,7 @@
             a(href="https://github.com/itfoundry/Poppins") Poppins
             |  and 
             a(href="https://fonts.google.com/specimen/Domine") Domine
-            | .
+            | . It uses an active scroll function, grid resizer and image lazy load for improved experience and performance.
     section
       .cols
         .col.bordT1
