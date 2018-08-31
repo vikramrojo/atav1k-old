@@ -1,19 +1,19 @@
 <template lang="pug">
-  main.main
+  main.main(role="main")
     .fixed.wid100.bordB1.z10.bgWhite
-      nav.nav.cols
+      nav.nav.cols(role="contentinfo")
         scrollactive(:offset="70").navLeft.col
           a.scrollactive-item(href="#top").bold.hide Vikram Babu
           a.scrollactive-item(href="#product") Product
           a.scrollactive-item(href="#design") Design
           a.scrollactive-item(href="#words") Words
         .navRight.col#gridsize.hide
-          .small.silver Resize
-          a.small(v-on:click="gridSm") SM
-          a.small(v-on:click="gridMd") MD
-          a.small(v-on:click="gridLg") LG
-          a.small(v-on:click="gridXl") XL
-    section.cols.padY2
+          .small.dark Resize
+          a.small(v-on:click="gridSm" role="button") SM
+          a.small(v-on:click="gridMd" role="button") MD
+          a.small(v-on:click="gridLg" role="button") LG
+          a.small(v-on:click="gridXl" role="button") XL
+    section.cols.padY2(role="article")
       .col.marT2
         h3#top
           | Vikram implements 
@@ -27,7 +27,7 @@
           a(href="https://gigster.com") Gigster
           |  as a Senior Product Designer, where I led application design and usability using design systems, for our internal tools and marketing products.
         h4 I'm currently available for work. Take a look at my 
-          a(href="/img/vikram-resume.pdf") resume
+          a(href="/img/vikram-resume.pdf" role="link") resume
           |  or reach me, atavikram at gmail dot com.
         fold
           h4 Over my design career, I've been a product design fellow, and held roles in visual design and frontend at agencies and in-house. I also launched the publication 
@@ -71,14 +71,14 @@
             | —2018
           p A usability study and component survey contributing to internal products like contractor dashboard and adminstrator payout tools. A marketing blog.
           .grid.gridCols.gridGap1
-            lazy-image(src="/img/gigster-kit2.jpg" placeholder="/img/img.png" img-class="lazy")
-            lazy-image(src="/img/gigster-kit1.jpg" placeholder="/img/img.png" img-class="lazy")
-            lazy-image(src="/img/gigster-ux1.jpg" placeholder="/img/img.png" img-class="lazy")          
-            lazy-image(src="/img/gigster-ux2.jpg" placeholder="/img/img.png" img-class="lazy")          
-            lazy-image(src="/img/gigster-ux6.jpg" placeholder="/img/img.png" img-class="lazy")          
-            lazy-image(src="/img/gigster-payouts.jpg" placeholder="/img/img.png" img-class="lazy")          
-            lazy-image(src="/img/gigster-blog1.jpg" placeholder="/img/img.png" img-class="lazy")          
-            lazy-image(src="/img/gigster-blog2.jpg" placeholder="/img/img.png" img-class="lazy")          
+            lazy-image(alt="portfolio" src="/img/gigster-kit2.jpg" placeholder="/img/img.png" img-class="lazy")
+            lazy-image(alt="portfolio" src="/img/gigster-kit1.jpg" placeholder="/img/img.png" img-class="lazy")
+            lazy-image(alt="portfolio" src="/img/gigster-ux1.jpg" placeholder="/img/img.png" img-class="lazy")          
+            lazy-image(alt="portfolio" src="/img/gigster-ux2.jpg" placeholder="/img/img.png" img-class="lazy")          
+            lazy-image(alt="portfolio" src="/img/gigster-ux6.jpg" placeholder="/img/img.png" img-class="lazy")          
+            lazy-image(alt="portfolio" src="/img/gigster-payouts.jpg" placeholder="/img/img.png" img-class="lazy")          
+            lazy-image(alt="portfolio" src="/img/gigster-blog1.jpg" placeholder="/img/img.png" img-class="lazy")          
+            lazy-image(alt="portfolio" src="/img/gigster-blog2.jpg" placeholder="/img/img.png" img-class="lazy")          
           fold(selected=true).marT1
             h4 From concept to prototype
             p Drawing from my experiences as a Frontend Developer, I initiated a project to move internal teams over to a design system to reduce the backlog of unimplemented designs. Prior to my work, the team implemented 3 different frontend environments which was reduced to two.
@@ -87,9 +87,9 @@
             h4 Transferring knowledge to Marketing 
             p The maintenance of public sites was bogged down by a poor implementation and it no longer met the requirements of a newly formed marketing team. Seeing an opportunity to improve our CSS implementation, which stood at over 500kb, 10k declarations, 300 fonts sizes & 750 dimensions, I founded a framework that simplified our CSS to just 50kb, 800 declarations, 20 font sizes & 75 dimensions.
             .grid.gridCols.gridGap1.marB1
-              lazy-image(src="/img/gigster-landing1.jpg" placeholder="/img/img.png" img-class="lazy")          
-              lazy-image(src="/img/gigster-landing2.jpg" placeholder="/img/img.png" img-class="lazy")          
-              lazy-image(src="/img/gigster-landing3.jpg" placeholder="/img/img.png" img-class="lazy")          
+              lazy-image(alt="portfolio" src="/img/gigster-landing1.jpg" placeholder="/img/img.png" img-class="lazy")          
+              lazy-image(alt="portfolio" src="/img/gigster-landing2.jpg" placeholder="/img/img.png" img-class="lazy")          
+              lazy-image(alt="portfolio" src="/img/gigster-landing3.jpg" placeholder="/img/img.png" img-class="lazy")          
             p I led the migration on the backend from a poorly structured React app to a thoroughly componentized Server Side Rendered Vue app with the headless CMS Contentful supporting the build. The average time to launch marketing pages shifted from 3 months to 2-3 weeks given improvements in how operations were ordered and templates were generated.
             blockquote Vikram is intelligent and self-motivated, driven to work to the best of his ability. He pursued continuous improvement staying informed about the latest design trends and showing interest in the strategic direction of the company. He moderates project discussions collaboratively, pulling together multiple stakeholders, and prioritizing necessary actions. His ability to work closely with engineers allowed us to ship a new blog faster and more efficiently compared to similar previous projects.
               br
@@ -103,16 +103,16 @@
             | —2018
           p A Sketch component kit complete with artboards, themeing and presentation layers for contract designers. Distributed through a secure microsite cataloging features and tips.
           .grid.gridCols.gridGap1
-            lazy-image(src="/img/booster-site1.jpg" placeholder="/img/img.png" img-class="lazy")          
-            lazy-image(src="/img/booster-site2.jpg" placeholder="/img/img.png" img-class="lazy")          
-            lazy-image(src="/img/booster-kit1.jpg" placeholder="/img/img.png" img-class="lazy")          
-            lazy-image(src="/img/booster-kit2.jpg" placeholder="/img/img.png" img-class="lazy")
+            lazy-image(alt="portfolio" src="/img/booster-site1.jpg" placeholder="/img/img.png" img-class="lazy")          
+            lazy-image(alt="portfolio" src="/img/booster-site2.jpg" placeholder="/img/img.png" img-class="lazy")          
+            lazy-image(alt="portfolio" src="/img/booster-kit1.jpg" placeholder="/img/img.png" img-class="lazy")          
+            lazy-image(alt="portfolio" src="/img/booster-kit2.jpg" placeholder="/img/img.png" img-class="lazy")
           fold(selected=true).marT1
             h4 Design operations for contractors
             p Bringing attention to the designer network, there were a wide variety of approaches, tools and outcomes from contractor design work. I worked with a team on how to better guide designers.
             .grid.gridCols.gridGap1.marB1
-              lazy-image(src="/img/booster-map1.jpg" placeholder="/img/img.png" img-class="lazy")          
-              lazy-image(src="/img/booster-map2.jpg" placeholder="/img/img.png" img-class="lazy")          
+              lazy-image(alt="portfolio" src="/img/booster-map1.jpg" placeholder="/img/img.png" img-class="lazy")          
+              lazy-image(alt="portfolio" src="/img/booster-map2.jpg" placeholder="/img/img.png" img-class="lazy")          
             p By interviewing a handful of designers and creating a journey map that captured their experiences at various touchpoints, a roadmap was established for the team. Our first product was a component kit and microsite for designers.
             blockquote Vikram helped grow our global design network by 25% in one quarter, screening and helping recruit qualified designers. And he led work on a design system for that network, helping to increase reliable outputs across a diverse range of client projects.
               br
@@ -188,7 +188,7 @@
             br
             a(href="https://medium.com/message/beyond-identity-binary-and-surveillance-d287f65521cd") Message
             | —2015
-    nav.bordT1
+    nav.bordT1(role="contentinfo")
       .nav.cols
         .col.navLeft
           a(href="https://dribbble.com/atav1k") Dribbble
