@@ -16,11 +16,11 @@
     section.cols.padY2(role="article")
       .col.marT2
         h3#top
-          | Vikram implements 
+          | Hi, I'm Vikram. I implement 
           span.serif Design Systems
-          | , coaches teams on 
+          | , coach teams on 
           span.serif Design Operations,
-          |  and de-risks projects with 
+          |  and de-risk projects with 
           span.serif Product Discovery
           | .
         h4 I recently worked at 
@@ -57,7 +57,7 @@
             a(href="https://github.com/itfoundry/Poppins") Poppins
             |  and 
             a(href="https://fonts.google.com/specimen/Domine") Domine
-            | . It uses an active scroll function, grid resizer and image lazy load for improved experience and performance.
+            | . It uses an active scroll function, grid resizer, and image lazy load for improved experience and performance.
     section
       .cols
         .col.bordT1
