@@ -19,20 +19,20 @@
           | Vikram implements 
           span.serif Design Systems
           | , coaches teams on 
-          span.serif Design Operations
+          span.serif Design Operations,
           |  and de-risks projects with 
           span.serif Product Discovery
           | .
         h4 I recently worked at 
           a(href="https://gigster.com") Gigster
-          |  as a Senior Product Designer, where I led application design and usability using design systems, for our internal tools and marketing products.
+          |  as a Senior Product Designer where I led application design and usability using design systems for our internal tools and marketing products.
         h4 I'm currently available for work. Take a look at my 
           a(href="/img/vikram-resume.pdf" role="link") resume
-          |  or reach me, atavikram at gmail dot com.
+          |  or email me: atavikram at gmail dot com.
         fold
-          h4 Over my design career, I've been a product design fellow, and held roles in visual design and frontend at agencies and in-house. I also launched the publication 
+          h4 Over my design career I've been a product design fellow and held roles in visual design and frontend at agencies and in-house. I also launched the publication 
             a(href="https://medium.com/endless") Endless
-            | , growing it to over 30k+ subscribers and 5M+ reads in its brief year of existence. As well, I was a regular contributor to 
+            | growing it to over 30k+ subscribers and 5M+ reads in its brief year of existence. I was also a regular contributor to 
             span.serif Medium's
             |  technology focused 
             a(href="https://medium.com/message") Message
