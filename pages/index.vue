@@ -81,16 +81,16 @@
             lazy-image(alt="portfolio" src="/img/gigster-blog2.jpg" placeholder="/img/img.png" img-class="lazy")          
           fold(selected=true).marT1
             h4 From concept to prototype
-            p Drawing from my experiences as a Frontend Developer, I initiated a project to move internal teams over to a design system to reduce the backlog of unimplemented designs. Prior to my work, the team implemented 3 different frontend environments which was reduced to two.
-            p Response time on requested prototypes went from weeks to 48 hours. Developer implementation likewise was significantly reduced from a peak of 8 months to 1-2 months. The introduction of design constraints through 8px baseline grids and components significantly reduced QA issues during staging. In one instance, a payout tool went from prototype to product in 
-            p As we rapidly doubled the design team, I researched and authored a heuristic to systematically evaluate user interfaces. The product group used this heuristic to survey existing products and emerging features for a wide array of experience fails.
-            h4 Transferring knowledge to Marketing 
-            p The maintenance of public sites was bogged down by a poor implementation and it no longer met the requirements of a newly formed marketing team. Seeing an opportunity to improve our CSS implementation, which stood at over 500kb, 10k declarations, 300 fonts sizes & 750 dimensions, I founded a framework that simplified our CSS to just 50kb, 800 declarations, 20 font sizes & 75 dimensions.
+            p Drawing from my experiences as a Frontend Developer, I initiated moving internal teams over to a design system thus reducing the backlog of unimplemented designs. Previously, the team implemented designs in multiple frontend environments which I reduced to 2.
+            p Response time on requested prototypes went from weeks to 48 hours. Developer implementation was significantly reduced from 8 months to a maximum of 1-2 months. The introduction of design constraints through 8px baseline grids and components significantly reduced QA issues during staging. In one instance, a payout tool went from prototype to usability testing and was deployed in 3 weeks.
+            p As we rapidly doubled the design team, I researched and authored a heuristic which systematically evaluated user interface. The product group used this heuristic to survey existing products and emerging features for a wide array of experience failures.
+            h4 Transferring knowledge to marketing 
+            p The maintenance of public sites was bogged down by a poor implementation and it no longer met the requirements of a newly formed marketing team. I saw an opportunity to improve our CSS implementation, which stood at over 500kb, 10k declarations, 300 fonts sizes, and 750 dimensions, so I founded a framework that simplified our CSS to just 50kb, 800 declarations, 20 font sizes, and 75 dimensions.
             .grid.gridCols.gridGap1.marB1
               lazy-image(alt="portfolio" src="/img/gigster-landing1.jpg" placeholder="/img/img.png" img-class="lazy")          
               lazy-image(alt="portfolio" src="/img/gigster-landing2.jpg" placeholder="/img/img.png" img-class="lazy")          
               lazy-image(alt="portfolio" src="/img/gigster-landing3.jpg" placeholder="/img/img.png" img-class="lazy")          
-            p I led the migration on the backend from a poorly structured React app to a thoroughly componentized Server Side Rendered Vue app with the headless CMS Contentful supporting the build. The average time to launch marketing pages shifted from 3 months to 2-3 weeks given improvements in how operations were ordered and templates were generated.
+            p I led the migration on the backend from a poorly structured React app to a thoroughly componentized Server Side Rendered (SSR) Vue app with the headless Content Management System (CMS) Contentful supporting the build. The average time to launch marketing pages shifted from 3 months to 2-3 weeks given improvements in how operations were ordered and templates were generated.
             blockquote Vikram is intelligent and self-motivated, driven to work to the best of his ability. He pursued continuous improvement staying informed about the latest design trends and showing interest in the strategic direction of the company. He moderates project discussions collaboratively, pulling together multiple stakeholders, and prioritizing necessary actions. His ability to work closely with engineers allowed us to ship a new blog faster and more efficiently compared to similar previous projects.
               br
               | —Alonzo Felix, Design Director at Gigster
@@ -101,7 +101,7 @@
           p
             span.serif Gigster
             | —2018
-          p A Sketch component kit complete with artboards, themeing and presentation layers for contract designers. Distributed through a secure microsite cataloging features and tips.
+          p A Sketch component kit complete with artboards, theming, and presentation layers for contract designers, distributed through a secure microsite cataloging features and tips.
           .grid.gridCols.gridGap1
             lazy-image(alt="portfolio" src="/img/booster-site1.jpg" placeholder="/img/img.png" img-class="lazy")          
             lazy-image(alt="portfolio" src="/img/booster-site2.jpg" placeholder="/img/img.png" img-class="lazy")          
@@ -146,7 +146,7 @@
           p
             span.serif Luka
             | —2017
-          p A brand identity, style guide, landing page and component guide with accompanying reasearch to take a product from blockchain concept to prototype.
+          p A brand identity, style guide, landing page and component guide with accompanying research to take a product from blockchain concept to prototype.
           .grid.gridCols.gridGap1
             lazy-image(placeholder="/img/img.png" img-class="lazy" src="/img/luka-logo.jpg")
             lazy-image(placeholder="/img/img.png" img-class="lazy" src="/img/luka-guide.jpg")
