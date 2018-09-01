@@ -23,7 +23,7 @@ export default {
   props: {
     selected: {
       type: Boolean,
-      required: true,
+      required: false,
       default: false
     }
   },
