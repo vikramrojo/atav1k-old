@@ -79,6 +79,7 @@ nav div{
 
 .scrollactive-item.is-active {
   text-decoration: underline;
+  color: var(--dark);
 }
 
 h1, .h1 {
@@ -99,11 +100,10 @@ h1, .h1 {
 .h1::before {
   content: attr(data-heading);
   position: absolute;
-	left: 0.25rem;
-	top: 0.25rem;
+	left: 0.187rem;
+	top: 0.187rem;
   z-index: -10;
- 	-webkit-text-stroke: 1px;
-	-webkit-text-fill-color: transparent;
+  color: var(--indigo);
 }
 
 .h1:hover::before {
