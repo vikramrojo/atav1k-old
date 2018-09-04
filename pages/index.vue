@@ -63,13 +63,14 @@
         .col.bordT1
           .h1.marT2(data-heading="Product")#product Product
       .cols.padY2
-        .col12
-          .h4 Tools & Marketing—
-            span.serif UX/UI, Usabilty, CSS, Project Management
-          p
+        .col6
+          h3 Building the future of distributed work at 
             span.serif Gigster
-            | —2018
+        .col6.marT4.marReset
+          .h4 Internal Tools & Marketing—
+            span.serif UX/UI, Usabilty, CSS, Project Management
           p A usability study and component survey contributing to internal products like contractor dashboard and adminstrator payout tools. A marketing blog.
+        .col12
           .grid.gridCols.gridGap1
             lazy-image(alt="portfolio" src="/img/gigster-kit2.jpg" placeholder="/img/img.png" img-class="lazy")
             lazy-image(alt="portfolio" src="/img/gigster-kit1.jpg" placeholder="/img/img.png" img-class="lazy")
@@ -79,7 +80,7 @@
             lazy-image(alt="portfolio" src="/img/gigster-payouts.jpg" placeholder="/img/img.png" img-class="lazy")          
             lazy-image(alt="portfolio" src="/img/gigster-blog1.jpg" placeholder="/img/img.png" img-class="lazy")          
             lazy-image(alt="portfolio" src="/img/gigster-blog2.jpg" placeholder="/img/img.png" img-class="lazy")          
-          fold(selected=true).marT1
+          fold(selected=true).marT2
             h4 From concept to prototype
             p Drawing from my experiences as a Frontend Developer, I initiated moving internal teams over to a design system thus reducing the backlog of unimplemented designs. Previously, the team implemented designs in multiple frontend environments which I reduced to 2.
             p Response time on requested prototypes went from weeks to 48 hours. Developer implementation was significantly reduced from 8 months to a maximum of 1-2 months. The introduction of design constraints through 8px baseline grids and components significantly reduced QA issues during staging. In one instance, a payout tool went from prototype to usability testing and was deployed in 3 weeks.
@@ -95,19 +96,20 @@
               br
               | —Alonzo Felix, Design Director at Gigster
       .cols.padY2
-        .col
-          .h4 Design Booster—
+        .col6
+          h3 Improving designer productivity and client deliverables with 
+            span.serif Booster
+        .col6.marT4
+          .h4 External Tools and Marketing—
             span.serif Component Kit, UX, Frontend, Documentation
-          p
-            span.serif Gigster
-            | —2018
           p A Sketch component kit complete with artboards, theming, and presentation layers for contract designers, distributed through a secure microsite cataloging features and tips.
+        .col12
           .grid.gridCols.gridGap1
             lazy-image(alt="portfolio" src="/img/booster-site1.jpg" placeholder="/img/img.png" img-class="lazy")          
             lazy-image(alt="portfolio" src="/img/booster-site2.jpg" placeholder="/img/img.png" img-class="lazy")          
             lazy-image(alt="portfolio" src="/img/booster-kit1.jpg" placeholder="/img/img.png" img-class="lazy")          
             lazy-image(alt="portfolio" src="/img/booster-kit2.jpg" placeholder="/img/img.png" img-class="lazy")
-          fold(selected=true).marT1
+          fold.marT2
             h4 Design operations for contractors
             p Bringing attention to the designer network, there were a wide variety of approaches, tools and outcomes from contractor design work. I worked with a team on how to better guide designers.
             .grid.gridCols.gridGap1.marB1
@@ -135,7 +137,7 @@
             lazy-image(placeholder="/img/img.png" img-class="lazy" src="/img/whiplash-style1.jpg")
             lazy-image(placeholder="/img/img.png" img-class="lazy" src="/img/whiplash-style2.jpg")
             lazy-image(placeholder="/img/img.png" img-class="lazy" src="/img/whiplash-mockup.jpg")
-          fold.marT1
+          fold.marT2
             h4 Exploring new styles
             p What began as a new logomark eventually continued into a sophisticated brand identity meant to attract medium to large boutique retailers.
             p I explored a number of different visual styles to see what resonated with the Whiplash team. Following a number of explorations we narrowed it down to some core styles, gradients and fonts.

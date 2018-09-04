@@ -7,7 +7,7 @@
   --link-color: var(--indigo);
   font-size: 22px;
   letter-spacing: 0.02rem;
-  --column-gutter: 5rem;
+  --column-gutter: 4rem;
 }
 
 .lazy {
