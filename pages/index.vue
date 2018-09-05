@@ -18,7 +18,7 @@
         h3#top
           | Hi, I'm Vikram, a 
           span.serif product designer
-          | . I implement 
+          |  and all-round problem solver. I implement 
           span.serif design systems
           | , coach teams on 
           span.serif design operations,
