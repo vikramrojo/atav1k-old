@@ -16,13 +16,15 @@
     section.cols.padY2(role="article")
       .col.marT2
         h3#top
-          | Hi, I'm Vikram. I implement 
+          | Hi, I'm Vikram, a 
+          span.serif product designer
+          | . I implement 
           span.serif design systems
           | , coach teams on 
           span.serif design operations,
           |  and de-risk projects with 
           span.serif product discovery
-          | .
+          |  to deliver exceptional software to users.
         h4 I recently worked at 
           span.serif Gigster
           |  as a Senior Product Designer where I led application design and usability using design systems for our internal tools and marketing products.
@@ -30,16 +32,16 @@
           a(href="/img/vikram-resume.pdf" role="link") resume
           |  or email me: atavikram at gmail dot com.
         fold
-          h4 Over my design career I've been a product design fellow and held roles in visual design and frontend at agencies and in-house. I also launched the publication 
+          h4 Over my design career I've been a product design fellow and held roles in visual design and frontend, at agencies and in-house. I also launched the publication 
             a(href="https://medium.com/endless") Endless
             |  growing it to over 30k+ subscribers and 5M+ reads in its brief year of existence. I was also a regular contributor to 
             span.serif Medium's
             |  technology focused 
             a(href="https://medium.com/message") Message
             | .
-          h4 Before that I was a high school teacher heading a mathematics and technology program. I continue to mentor students at under-resourced schools in frontend and design through 
+          h4 Before that I was a high school teacher heading a mathematics and technology program. I continue to mentor students at under-resourced East Oakland schools in frontend and design through 
             a(href="https://scripted.org") Scripted
-            |  in East Oakland.
+            | .
           h4
             a(href="https://dribbble.com/atav1k") Dribbble
             | —
@@ -53,11 +55,11 @@
             a(href="https://github.com/atav1k/atav1k") static site
             |  was built in Vue using my own CSS variables driven framework 
             a(href="https://github.com/atav1k/fortune") Fortune
-            |  with the fonts 
+            | , with the fonts 
             a(href="https://github.com/itfoundry/Poppins") Poppins
             |  and 
             a(href="https://fonts.google.com/specimen/Domine") Domine
-            | . It uses an active scroll function, grid resizer, and image lazy load for improved experience and performance.
+            | . It uses an active scroll function, grid resizer, and image lazy load for experience but also performance.
     section
       .cols
         .col.bordT1
