@@ -1,3 +1,120 @@
 :root {
+  --font-family: 'Poppins', sans-serif;
+  --headings-font-family: 'Poppins', sans-serif;
+  --font-weight: 300;
+  --grid-columns: repeat(3, 1fr);
+  --columns-width: 1710px;
+  --link-color: var(--indigo);
+  font-size: 22px;
+  letter-spacing: 0.02rem;
+  --column-gutter: 4rem;
+}
+
+.lazy {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    font-size: 18px;   
+    --column-gutter: 2rem;     
+  }
   
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  }
+}
+
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+.main {
+  /* background-color: #ffd8a8; */
+}
+
+.nav {
+  /* background-color: #ffd8a8; */
+}
+
+a {
+	transition: all 500ms ease;
+  font-family: "Domine", serif;
+  padding: 0.25rem 0.125rem;
+}
+
+.serif {
+  font-family: "Domine", serif;
+}
+
+nav a {
+  font-family: inherit;
+}
+
+.fold-header {
+  cursor: ns-resize;
+}
+
+nav a.small{
+  cursor: nesw-resize;
+}
+
+nav div{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: var(--nav-padding);
+  color: inherit;
+}
+
+.grid img{
+  /* box-shadow: 0 0.25rem 0.25rem var(--component-shadow); */
+  /* border: 1px solid #868e96; */
+  position: relative;
+}
+
+.scrollactive-item.is-active {
+  text-decoration: underline;
+  color: var(--dark);
+}
+
+h1, .h1 {
+  /* font-family: 'Khula', sans-serif; */
+  position: relative;
+  z-index: 0;
+  font-stretch: ultra-expanded;
+  display: inline-block;
+  transform: scaleY(0.8);
+  letter-spacing: 0.1rem;
+  margin-bottom: -0.25rem;
+}
+
+.h1::before {
+	transition: all 500ms ease;
+}
+
+.h1::before {
+  content: attr(data-heading);
+  position: absolute;
+	left: 0.187rem;
+	top: 0.187rem;
+  z-index: -10;
+  color: var(--indigo);
+}
+
+.h1:hover::before {
+	left: 0.5rem;
+	top: 0.5rem;
+}
+
+a {
+  /* padding: 0.25rem 0.125rem; */
+}
+a:hover{
+  background-color: var(--smoke);
+  border-radius: 0.125rem;
 }
