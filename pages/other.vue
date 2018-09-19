@@ -4,7 +4,7 @@
       nav.nav.cols(role="contentinfo")
         scrollactive(:offset="70").navLeft.col
           a(href="/").serif Vikram
-          a.scrollactive-item(href="#design") Branding
+          a.scrollactive-item(href="#design") Design
           a.scrollactive-item(href="#words") Writing
         .navRight.col#gridsize.hide
           .small.dark Resize

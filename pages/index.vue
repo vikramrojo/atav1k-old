@@ -4,7 +4,7 @@
       nav.nav.cols(role="contentinfo")
         scrollactive(:offset="70").navLeft.col
           a(href="/").serif Vikram
-          a.scrollactive-item(href="#top").hide Designing
+          a.scrollactive-item(href="#top").hide Product
           a.scrollactive-item(href="#1") 1
           a.scrollactive-item(href="#2") 2
           a.scrollactive-item(href="#3") 3
