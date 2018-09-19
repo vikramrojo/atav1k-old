@@ -16,30 +16,30 @@
     section.cols.padY2(role="article")
       .col.marT2
         h3#top
-          | Hi, I'm Vikram, a 
+          | I'm Vikram, a comprehensive 
           span.serif product designer
-          |  and all-round problem solver. I implement 
+          |  and problem solver. I implement 
           span.serif design systems
-          | , coach teams on 
+          | , help teams establish 
           span.serif design operations,
           |  and de-risk projects with 
           span.serif product discovery
           |  to deliver exceptional software to users.
         h4 I recently worked at 
           span.serif Gigster
-          |  as a Senior Product Designer where I led application design and usability using design systems for our internal tools and marketing products.
+          |  as a Senior Product Designer where I was responsible for problem definition, interface design, usability testing and project management for internal tools and marketing products. I also led efforts to establish design systems across product groups.
         h4 I'm currently available for work. Take a look at my 
           a(href="/img/vikram-resume.pdf" role="link") resume
           |  or email me: atavikram at gmail dot com.
         fold
-          h4 Over my design career I've been a product design fellow and held roles in visual design and frontend, at agencies and in-house. I also launched the publication 
+          h4 Over my design career I've been a product design fellow and held roles in visual design and frontend, at agencies and in-house. I launched the publication 
             a(href="https://medium.com/endless") Endless
             |  growing it to over 30k+ subscribers and 5M+ reads in its brief year of existence. I was also a regular contributor to 
             span.serif Medium's
             |  technology focused 
             a(href="https://medium.com/message") Message
             | .
-          h4 Before that I was a high school teacher heading a mathematics and technology program. I continue to mentor students at under-resourced East Oakland schools in frontend and design through 
+          h4 Before working as a design, I was a high school teacher heading a mathematics and technology program. I continue to mentor students at under-resourced East Oakland schools in frontend and design through 
             a(href="https://scripted.org") Scripted
             | .
           h4
@@ -66,10 +66,10 @@
           .h1.marT2(data-heading="Product")#product Product
       .cols.padY2
         .col6
-          h3 Building the future of distributed work at 
+          h3 1. Building the future of distributed work at 
             span.serif Gigster
         .col6.marT4.marReset
-          .h4 Internal Tools & Marketing—
+          .h4 App, Internal Tools & Marketing—
             span.serif UX/UI, Usabilty, CSS, Project Management
           p A usability study and component survey contributing to internal products like contractor dashboard and adminstrator payout tools. A marketing blog.
         .col12
@@ -99,7 +99,7 @@
               | —Alonzo Felix, Design Director at Gigster
       .cols.padY2
         .col6
-          h3 Improving designer productivity and client deliverables with 
+          h3 2. Improving designer productivity and client deliverables with 
             span.serif Booster
         .col6.marT4
           .h4 External Tools and Marketing—
@@ -121,6 +121,21 @@
             blockquote Vikram helped grow our global design network by 25% in one quarter, screening and helping recruit qualified designers. And he led work on a design system for that network, helping to increase reliable outputs across a diverse range of client projects.
               br
               | —Alonzo Felix, Design Director at Gigster
+      .cols.padY2
+        .col6
+          h3 3. Increasing user engagement and customer conversion at 
+            span.serif Niko
+        .col6.marT4
+          .h4 App—
+            span.serif UX, UI
+          p A usability study and updated product strategy driven by customer feedback, SaaS segment study and competitive analysis.
+        .col12
+          .grid.gridCols.gridGap1
+            lazy-image(alt="portfolio" src="/img/niko-app1.jpg" placeholder="/img/img.png" img-class="lazy")          
+            lazy-image(alt="portfolio" src="/img/niko-app2.jpg" placeholder="/img/img.png" img-class="lazy")          
+            lazy-image(alt="portfolio" src="/img/niko-app3.jpg" placeholder="/img/img.png" img-class="lazy")          
+            lazy-image(alt="portfolio" src="/img/niko-app4.jpg" placeholder="/img/img.png" img-class="lazy")    
+            lazy-image(alt="portfolio" src="/img/niko-app5.jpg" placeholder="/img/img.png" img-class="lazy")                
     section
       .cols
         .col.bordT1
