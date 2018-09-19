@@ -4,9 +4,8 @@
       nav.nav.cols(role="contentinfo")
         scrollactive(:offset="70").navLeft.col
           a.scrollactive-item(href="#top").hide.serif Vikram Babu
-          a.scrollactive-item(href="#product") Product
-          a.scrollactive-item(href="#design") Design
-          a.scrollactive-item(href="#words") Words
+          a.scrollactive-item(href="#product") Product Design
+          a(href="/other") Other
         .navRight.col#gridsize.hide
           .small.dark Resize
           a.small(v-on:click="gridSm" role="button") SM
