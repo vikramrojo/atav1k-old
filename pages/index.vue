@@ -52,16 +52,20 @@
             a(href="https://www.linkedin.com/in/atav1k/") LinkedIn
             | —
             a(href="https://medium.com/@atav1k/") Medium
-          h3.marT2 Colophon
-          h4 This 
-            a(href="https://github.com/atav1k/atav1k") static site
-            |  was built in Vue using my own CSS variables driven framework 
-            a(href="https://github.com/atav1k/fortune") Fortune
-            | , with the fonts 
-            a(href="https://github.com/itfoundry/Poppins") Poppins
-            |  and 
-            a(href="https://fonts.google.com/specimen/Domine") Domine
-            | . It uses an active scroll function, grid resizer, and image lazy load for experience but also performance.
+          .cols
+            .col8
+              h3.marT2 Colophon
+              h4 This 
+                a(href="https://github.com/atav1k/atav1k") static site
+                |  was built in Vue using my own CSS variables driven framework 
+                a(href="https://github.com/atav1k/fortune") Fortune
+                | , with the fonts 
+                a(href="https://github.com/itfoundry/Poppins") Poppins
+                |  and 
+                a(href="https://fonts.google.com/specimen/Domine") Domine
+                | . It uses an active scroll function, grid resizer, and image lazy load for experience but also performance.
+            .col4
+              lazy-image.marT1(alt="portfolio" src="/img/portrait-edit.jpg" placeholder="/img/img.png" img-class="lazy")
     section
       .cols
         .col.bordT1
