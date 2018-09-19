@@ -3,8 +3,8 @@
     .fixed.wid100.bordB1.z10.bgWhite
       nav.nav.cols(role="contentinfo")
         scrollactive(:offset="70").navLeft.col
-          a(href="/").hide.serif Vikram Babu
-          a.scrollactive-item(href="#design") Brand Design
+          a(href="/").serif Vikram
+          a.scrollactive-item(href="#design") Branding
           a.scrollactive-item(href="#words") Writing
         .navRight.col#gridsize.hide
           .small.dark Resize

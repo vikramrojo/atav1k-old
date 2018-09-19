@@ -3,8 +3,8 @@
     .fixed.wid100.bordB1.z10.bgWhite
       nav.nav.cols(role="contentinfo")
         scrollactive(:offset="70").navLeft.col
-          a(href="/").hide.serif Vikram Babu
-          a.scrollactive-item(href="#top") Product Design
+          a(href="/").serif Vikram
+          a.scrollactive-item(href="#top").hide Designing
           a.scrollactive-item(href="#1") 1
           a.scrollactive-item(href="#2") 2
           a.scrollactive-item(href="#3") 3
