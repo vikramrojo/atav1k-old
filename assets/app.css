@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 768px) {
   :root {
-    font-size: 18px;   
+    font-size: 16px;   
     --column-gutter: 2rem;     
   }
   

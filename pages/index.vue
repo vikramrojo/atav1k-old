@@ -103,7 +103,7 @@
         .col6
           h3 2. Improving designer productivity and client deliverables with 
             span.serif Booster
-        .col6.marT4
+        .col6.marT4.marReset
           .h4 External Tools and Marketing—
             span.serif Component Kit, UX, Frontend, Documentation
           p A Sketch component kit complete with artboards, theming, and presentation layers for contract designers, distributed through a secure microsite cataloging features and tips.
@@ -127,7 +127,7 @@
         .col6
           h3 3. Increasing user engagement and customer conversion at 
             span.serif Niko
-        .col6.marT4
+        .col6.marT4.marReset
           .h4 App—
             span.serif UX, UI
           p A usability study and updated product strategy driven by customer feedback, SaaS segment study and competitive analysis.
