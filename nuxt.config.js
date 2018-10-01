@@ -26,6 +26,17 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Domine|Poppins:300' }
     ]
   },
+  
+  /* Google Analytics */
+  modules: [
+    ['@nuxtjs/google-gtag']
+  ],
+  
+  'google-gtag': {
+    id: 'UA-126758056-1',
+    debug: true
+  },
+  
   /* Customize the progress bar color */
   loading: { color: 'var(--state-primary)' },
 
