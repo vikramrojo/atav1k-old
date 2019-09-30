@@ -18,18 +18,18 @@
     section.cols.padY2(role="article")
       .col.marT2
         h3#top
-          | I'm Vikram, a comprehensive 
+          | I'm Vikram, a evidence based 
           span.serif product designer
-          |  and problem solver. I implement 
+          |  and rigorous problem solver. I implement 
           span.serif design systems
           | , help teams establish 
           span.serif design operations,
           |  and de-risk projects with 
           span.serif product discovery
-          |  to deliver exceptional software to users.
-        h4 I recently worked at 
-          span.serif Gigster
-          |  as a Senior Product Designer where I was responsible for problem definition, interface design, usability testing and project management for internal tools and marketing products. I also led efforts to establish design systems across product groups.
+          |  to deliver exceptional software to enterprises.
+        h4 I currently work at 
+          span.serif LaunchDarkly
+          |  where I'm responsible for problem definition, interaction design, usability testing and design systems.
         h4 I'm currently available for work. Take a look at my 
           a(href="/img/vikram-resume.pdf" role="link") resume
           |  or email me: atavikram at gmail dot com.
