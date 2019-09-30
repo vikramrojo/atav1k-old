@@ -18,7 +18,7 @@
     section.cols.padY2(role="article")
       .col.marT2
         h3#top
-          | I'm Vikram, a evidence based 
+          | I'm Vikram, an evidence based 
           span.serif product designer
           |  and rigorous problem solver. I implement 
           span.serif design systems
@@ -30,7 +30,7 @@
         h4 I currently work at 
           span.serif LaunchDarkly
           |  where I'm responsible for problem definition, interaction design, usability testing and design systems.
-        h4 I'm currently available for work. Take a look at my 
+        h4 I'm not currently available for work but you can take a look at my 
           a(href="/img/vikram-resume.pdf" role="link") resume
           |  or email me: atavikram at gmail dot com.
         fold
